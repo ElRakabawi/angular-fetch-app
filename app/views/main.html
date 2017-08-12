@@ -1,0 +1,36 @@
+<div id="mycarousel" class="carousel slide" data-ride="carousel">
+  <div class="logo">
+    <h1 class="nfa">Angular Fetch app</h1>
+  </div>
+  <ol class="carousel-indicators">
+    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#mycarousel" data-slide-to="1"></li>
+    <li data-target="#mycarousel" data-slide-to="2"></li>
+    <li data-target="#mycarousel" data-slide-to="3"></li>
+    <li data-target="#mycarousel" data-slide-to="4"></li>
+    <li data-target="#mycarousel" data-slide-to="5"></li>
+    <li data-target="#mycarousel" data-slide-to="6"></li>
+    <li data-target="#mycarousel" data-slide-to="7"></li>
+    <li data-target="#mycarousel" data-slide-to="8"></li>
+    <li data-target="#mycarousel" data-slide-to="9"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item" ng-controller="MainCtrl" ng-repeat="data in DataObj">
+      <div class="carousel-caption">
+          <h3>ID: {{data.id}}</h3>
+          <h2 class="title">{{data.title}}<h2>
+            <p class="body">{{data.body}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+
+  <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>

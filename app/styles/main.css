@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Pacifico');
+
+body {
+  background-image: url(http://i.imgur.com/FkPPsOV.png);
+  background-size: cover;
+  max-height: 760px;
+}
+
+h3 {
+  display: inline-block;
+  padding: 10px;
+  background: #B9121B;
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-control.left {
+  background-image: none;
+  filter: none;
+}
+
+.carousel-control.right {
+  background-image: none;
+  filter: none;
+}
+
+.glyphicon {
+  font-size: 20px;
+  color: #fff;
+  opacity: 0.7;
+  transition: all .3s ease-in;
+}
+
+.carousel-control {
+  text-shadow: none;
+  transition: all .3s ease-in;
+}
+
+.carousel-control:hover {
+  opacity: 1;
+}
+
+.carousel-indicators li {
+  opacity: 0.2;
+}
+
+.carousel-indicators .active {
+  opacity: 0.4;
+}
+
+h3 {
+  display: inline-block;
+  padding: 10px;
+  background: transparent;
+  border-radius: 3px;
+  border-color: #000;
+  color: #000;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 18px;
+  text-shadow: none;
+  opacity: 0.5;
+}
+
+.logo {
+  position: absolute;
+  right: 15%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  text-align: center;
+  opacity: 1;
+}
+
+h1.nfa {
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+  font-size: 52px;
+  transition: all .6s ease-in;
+}
+
+h2.title {
+  font-size: 30px;
+  margin-top: 10px;
+  text-shadow: none;
+  font-family: 'Muli', sans-serif;
+  text-transform: uppercase;
+  transition: all .6s ease-in;
+}
+
+.body {
+  font-size: 18px;
+    text-shadow: none;
+    font-family: 'Muli', sans-serif;
+    opacity: 0.7;
+    transition: all .6s ease-in;
+}
+
+.carousel-caption {
+  top: 30%;
+  transition: all .6s ease-in;
+}
+
+/* Mediaqueries for extra responsitivity*/
+@media only screen and (max-width: 700px) {
+  .body {
+    display: none;
+  }
+  h2.title {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .carousel-caption {
+    top: 34%;
+  }
+  h1.nfa {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-height: 440px) {
+  .carousel-caption {
+    top: 20%;
+  }
+  h1.nfa {
+    font-size: 30px;
+  }
+  h2.title {
+    font-size: 20px;
+  }
+}
