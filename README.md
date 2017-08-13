@@ -11,5 +11,5 @@ Reponsitivity test result: [Here](https://www.responsinator.com/?url=https%3A%2F
 ## Build & development
 * Install NodeJS and NPM.
 * Clone and navigate to the repo.
-* Run `npm install` then `bower install`.
+* Run `npm install` then `bower install jquery --save`.
 * Run `grunt serve` for preview and `grunt` for building.
