@@ -4,6 +4,7 @@ body {
   background-image: url(http://i.imgur.com/FkPPsOV.png);
   background-size: cover;
   max-height: 760px;
+  background-repeat: no-repeat;
 }
 
 h3 {
