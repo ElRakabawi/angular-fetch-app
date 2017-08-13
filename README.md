@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/ElRakabawi/angular-fetch-app.svg?branch=master)](https://travis-ci.org/ElRakabawi/angular-fetch-app)
 # Angular fetch app documentation 
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
