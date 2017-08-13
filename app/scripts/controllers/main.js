@@ -15,15 +15,16 @@ angular.module('angularFetchAppApp')
     }).then(function successCallback(response) {
       $scope.DataObj = response.data;
     }, function errorCallback(response) {
-      console.log('There was error with the http request');
+      console.log('There was an error in HTTP request!');
     });
 
     var $item = $(".carousel .item");
     var $wHeight = $(window).height();
     $item.eq(0).addClass("active");
-    $item.height($wHeight);
-    $item.addClass("full-screen");
 
+
+    $wHeight = $(window).height();
+    $item.height($wHeight);
     $(window).on("resize", function() {
       $wHeight = $(window).height();
       $item.height($wHeight);
