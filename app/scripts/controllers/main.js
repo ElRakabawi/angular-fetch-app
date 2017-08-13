@@ -21,10 +21,9 @@ angular.module('angularFetchAppApp')
     var $item = $(".carousel .item");
     var $wHeight = $(window).height();
     $item.eq(0).addClass("active");
-
-
-    $wHeight = $(window).height();
     $item.height($wHeight);
+
+
     $(window).on("resize", function() {
       $wHeight = $(window).height();
       $item.height($wHeight);
