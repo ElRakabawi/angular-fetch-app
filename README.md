@@ -11,9 +11,4 @@ Reponsitivity test result: [Here](https://www.responsinator.com/?url=https%3A%2F
 * Install NodeJS and NPM.
 * Clone and navigate to the repo.
 * Run `npm install` then `bower install`.
-<br />
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
+* Run `grunt serve` for preview and `grunt` for building.
